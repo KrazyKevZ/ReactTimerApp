@@ -1,11 +1,11 @@
 var React = require('react');
 
-var countDown = (props) => {
+var Countdown = React.createClass({
+  render: function () {
   return (
-    <div>
-      <h1 className="text-center page-title">CountDown Component</h1>
-    </div>
-  )
-};
+    <p>Countdown.jsx</p>
+    )
+  }
+});
 
-module.exports = countDown;
+module.exports = Countdown;
