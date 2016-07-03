@@ -36,7 +36,7 @@ describe ('Timer', () => {
             expect(timer.state.count).toBe(10);
             done();
           }, 1001);
-        });
+       });
 
     it('should clear count on stopped status', (done) => {
             var timer = TestUtils.renderIntoDocument(<Timer/>);
@@ -50,5 +50,5 @@ describe ('Timer', () => {
                 expect(timer.state.count).toBe(0);
                 done();
               }, 1001);
-            });
+          });
       });
